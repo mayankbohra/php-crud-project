@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #1d2327;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 75vh;
+}
+
+.text:hover {
+    background-color: #f5f5f5;
+}
+
+.btn-hover-yellow:hover {
+    background-color: yellow;
+}
