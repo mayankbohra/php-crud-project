@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Bootstrap Form Example</title>
+    <!-- Bootstrap 5 CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav>
+        <div class="navbar-left">
+            <h1><a href="/project-2/index.html" class="text-decoration-none text-white">SQL/PHP Project</a></h1>
+        </div>
+        <div class="navbar-right">
+            <button class="btn" onClick="window.location.href='/project-2/part1/student/index.html';">PART-1</button>
+            <button class="btn" onClick="window.location.href='/project-2/part2/main.php';">PART-2</button>
+        </div>
+    </nav>
+
+    <div class="main-container">
+        <div class="container text-white">
+            <h2>Add Student Details</h2>
+            <form method="post" action="index.php" id="survey-form">
+                <div class="mb-3">
+                    <label for="id" class="form-label text-white">Student ID</label>
+                    <input type="text" class="form-control" id="id" name="id" placeholder="Enter Student ID" required />
+                </div>
+                <div class="mb-3">
+                    <label for="name" class="form-label text-white">Student Name</label>
+                    <input type="text" class="form-control" id="name" name="name" placeholder="Enter Student Name" required />
+                </div>
+                <div class="mb-3">
+                    <label for="dept" class="form-label text-white">Department Name</label>
+                    <input type="text" class="form-control" id="dept" name="dept" placeholder="Enter Department Name" required />
+                </div>
+                <div class="mb-3">
+                    <label for="cred" class="form-label text-white">Total Credits</label>
+                    <input type="text" class="form-control" id="cred" name="cred" placeholder="Enter Total Credits" required />
+                </div>
+                <button type="submit" class="btn btn-primary">Add Data</button>
+                <button type="submit" class="btn btn-primary" onclick="location.href='/project-2/part1/instructor/main.php' ">Next</button>
+
+            </form>
+        </div>
+    </div>
+    <!-- Bootstrap 5 JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.0.0/js/bootstrap.min.js "></script>
+
+</body>
+
+</html>
